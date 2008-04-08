@@ -3,7 +3,7 @@
 #   Modularizer - perl program modularization framewok
 #   Modularizer.pm: module management class
 #
-#   Copyright (c) 2003-2004 Baltasar Cevc
+#   Copyright (c) 2003-2008 Baltasar Cevc
 #
 #   Thanx to http://former03.de for paying me for the future 
 #   development ;-)
@@ -23,8 +23,8 @@
 #   See this internet site for more details: http://technik.juz-kirchheim.de/
 #
 #   Creation:       07.06.04    bc
-#   Last Update:    17.02.05    bc
-#   Version:         0. 1. 1  
+#   Last Update:    06.04.08    bc
+#   Version:         0. 1. 22 
 # ----------------------------------------------------------------------------
 use strict;
 use warnings;
@@ -39,5 +39,6 @@ use ExtUtils::MakeMaker;
 
 WriteMakefile (
    NAME                => 'App::Modular',
-   VERSION_FROM        => 'lib/App/Modular.pm'
+   VERSION_FROM        => 'lib/App/Modular.pm',
+   PREREQ_PM           => {'Class::Singleton' => '1.03'}
 );

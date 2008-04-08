@@ -20,8 +20,8 @@
 #   See this internet site for more details: http://technik.juz-kirchheim.de/
 #
 #   Creation:       02.12.03    bc
-#   Last Update:    21.05.05    bc
-#   Version:         0. 1. 1  
+#   Last Update:    06.04.08    bc
+#   Version:         0. 1. 3  
 # ----------------------------------------------------------------------------
 
 ###################
@@ -42,7 +42,7 @@ use 5.006_001;
 package App::Modular::Module;
 
 use vars qw($VERSION);
-$VERSION=0.001_001;
+$VERSION=0.001_003;
 
 ###################
 ###             ###
@@ -94,17 +94,17 @@ sub module_depends {
 
 =head1 NAME
 
-modularizer::module - App::Modular module base class.
+App::Modular::Module - App::Modular module base class.
 
 =head1 SYNOPSIS
 
 	#!/usr/bin/perl -w
 	use strict;
 
-	package modularizer::module::dummy;
+	package App::Modular::Module::Dummy;
 
 	use modularizer;
-	use base qw(modularizer::module);
+	use base qw(App::Modular::Module);
 
 	# a complete do-noting module :-)
 

@@ -20,8 +20,8 @@
 #   See this internet site for more details: http://technik.juz-kirchheim.de/
 #
 #   Creation:       02.12.03    bc
-#   Last Update:    20.05.05    bc
-#   Version:         0. 1. 1  
+#   Last Update:    06.04.08    bc
+#   Version:         0. 1. 3  
 # ----------------------------------------------------------------------------
 
 ##################################
@@ -39,7 +39,7 @@ use base qw(Class::Singleton);
 ##           VERSION            ##
 ##################################
 our ($VERSION);
-$VERSION = 0.001_001;
+$VERSION = 0.001_003;
 
 ##################################
 ##           METHODS            ##
